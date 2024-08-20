@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <div class="calculator">
+        
+        <div id="display">0</div>
+
+        <div class="buttons">
+            <img src="">
+            <img src="">
+            <img src="13.png" onclick="deleteEntry()">
+            <img src="12.png" onclick="clearDisplay()" alt="C">
+            
+            <img src="7.png" onclick="appendNumber(7)" alt="7">
+            <img src="8.png" onclick="appendNumber(8)" alt="8">
+            <img src="9.png" onclick="appendNumber(9)" alt="9">
+            <img src="14.png" onclick="setOperation('/')" alt="/">
+            
+            <img src="4.png" onclick="appendNumber(4)" alt="4">
+            <img src="5.png" onclick="appendNumber(5)" alt="5">
+            <img src="6.png" onclick="appendNumber(6)" alt="6">
+
+
+            <img src="16.png" onclick="setOperation('*')" alt="*">
+            <img src="1.png" onclick="appendNumber(1)" alt="1">
+            <img src="2.png" onclick="appendNumber(2)" alt="2">
+            <img src="3.png" onclick="appendNumber(3)" alt="3">
+
+            <img src="17.png" onclick="setOperation('-')" alt="-">
+            <img src="10.png" onclick="appendNumber(0)" alt="0">
+            <img src="15.png" onclick="calculate()" alt="=">
+            <img src="18.png" onclick="setOperation('%')" alt="%">
+            <img src="11.png" onclick="setOperation('+')" alt="+">
+        </div>
+    </div>    <script src="script.js"></script>
+</body>
+</html>
